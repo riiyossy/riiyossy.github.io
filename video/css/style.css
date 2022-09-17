@@ -10,12 +10,12 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
     height: 100%;
 }
 h1 {
-    width: fit-content;
     font-size: 50px;
     position: absolute;
     top: 100px;
     left: 100px;
-    -webkit-background-clip: text;
     background-image: linear-gradient(120deg, rgba(255, 84, 54, 0.8), rgba(255, 255, 255, 0)), linear-gradient(185deg, rgba(69, 54, 255, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(0, 153, 26, 0.8), rgba(255, 255, 255, 0));
+     width: fit-content;
+    -webkit-background-clip:text;
     color: transparent;
 }
