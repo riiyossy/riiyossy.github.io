@@ -1,0 +1,77 @@
+@use "reset";
+
+//色の指定
+.color-1 {
+    background-color: #ff5e33;
+}
+.color-2 {
+    background-color: #ffbf3e;
+}
+.color-3 {
+    background-color: #c9e56f;
+}
+.color-4 {
+    background-color: #a2d8eb;
+}
+.color-5 {
+    background-color: #AD8B73;
+}
+.color-6 {
+    background-color: #E3CAA5;
+}
+.color-7 {
+    background-color: #e63f34;
+}
+.color-8 {
+    background-color: #11a938;
+}
+.color-9 {
+    background-color: #f0ac1d;
+}
+h1 {
+    text-align: center;
+    margin: 100px auto;
+}
+.banner-wrapper {
+    width: 1000px;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    .banner-box {
+        width: calc((100% - 40px) / 2);
+        margin-bottom: 60px;
+        .pc {
+            width: 336px;
+            height: 280px;
+        }
+        .sp {
+            width: 320px;
+            height: 280px;
+        }
+        .banner-info {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            
+            dt {
+                width: 40%;
+                padding: 10px;
+                font-weight: bold;
+            }
+            dd {
+                width: 60%;
+                padding: 10px;
+                span {
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    margin: 0 10px 0 20px;
+                    &:first-of-type {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
